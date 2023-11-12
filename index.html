@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Atividade 9</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css.css'>
+    <script src='js.js'></script>
+</head>
+<body id="body">
+    <table>
+        <tr>
+            <td>
+                <form name="graus" oninput="calcular()">
+                    <label>Graus :</label> <input type="number" id="number" oninput="calcular()">
+                    <select id="escala1" oninput="calcular()">
+                        <option value="celcius">Celcius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvins</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+            <select id="escala2" oninput="calcular()">
+                <option value="celcius">Celcius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvins</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p id="result"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://www.rapidtables.com/convert/temperature/index.html">Fonte das fórmulas das conversões</a>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
